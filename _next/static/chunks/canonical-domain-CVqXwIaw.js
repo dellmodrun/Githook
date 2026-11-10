@@ -1,1 +1,1 @@
-var e=`https://dellmodrun.github.io/Githook`,t=[];export{e as n,t};
+var e=`https://dellmodrun.github.io`,t=[];export{e as n,t};

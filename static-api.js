@@ -1,11 +1,11 @@
 (() => {
   const nativeFetch = window.fetch.bind(window);
-  const siteRoot = '/Githook';
+  const siteRoot = '';
   const withSiteRoot = (value) => {
     if (typeof value !== 'string') return value;
     if (
       value.startsWith('/_next/') ||
-      value.startsWith('/Githook/fonts/') ||
+      value.startsWith('/fonts/') ||
       value.startsWith('/repo-media/')
     ) {
       return siteRoot + value;
