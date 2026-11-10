@@ -549,6 +549,29 @@ body .sr-primary {
   background: #ffffff !important;
 }
 
+.nav-x {
+  display: inline-grid !important;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0 !important;
+  color: #ffffff !important;
+  border: 1px solid rgb(255 255 255 / 28%);
+  border-radius: 8px !important;
+  background: rgb(119 45 28 / 18%);
+}
+
+.nav-x:hover {
+  color: #9a432d !important;
+  border-color: #ffffff !important;
+  background: #ffffff !important;
+}
+
+.nav-x svg {
+  width: 17px;
+  height: 17px;
+}
+
 /* Replace every legacy hatching/egg emblem with the new Githook mark. */
 .hatch-symbol {
   overflow: hidden !important;
@@ -616,10 +639,6 @@ body .sr-primary {
 .brand-period,
 .nav-launch {
   color: #ffffff !important;
-}
-
-.nav-x {
-  display: none !important;
 }
 
 @media (max-width: 720px) {
