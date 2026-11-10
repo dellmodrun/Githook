@@ -288,6 +288,173 @@ button[data-primary="true"] {
   color: #ffffff !important;
 }
 
+/* Final monochrome brand pass: every surface stays inside the coral family,
+   while all copy uses high-contrast warm whites. */
+.nav-core,
+.site-more .nav-menu,
+.sr-wallet,
+.alerts-toggle,
+.sr-panel,
+.sr-truth,
+.sr-search,
+.sr-select,
+.sr-icon-btn,
+.project-card,
+.coin-card,
+.life-room-card,
+.life-empty,
+.boot-mission,
+.boot-mission-controls,
+.boot-mission select,
+.boot-mission-ideas button,
+.life-role-stamps span,
+.sr-site input,
+.sr-site select,
+.sr-site textarea,
+.cg-search,
+.trending-summary,
+.sr-btn:not(.sr-primary),
+.life-directory-controls label,
+.agent-workflow-steps,
+.agent-workflow-steps > span,
+.boot-automation-card,
+.boot-setup-main,
+.boot-plan-summary,
+.agent-builder,
+.trending-empty,
+.outreach-note,
+.boot-setup-steps button,
+.boot-setup-steps button > span {
+  color: var(--githook-paper) !important;
+  border-color: rgb(255 255 255 / 28%) !important;
+  background-color: rgb(119 45 28 / 18%) !important;
+  background-image: none !important;
+}
+
+.hs-source,
+.hs-agent,
+.hs-chat,
+.hs-chat > header,
+.hs-chat-line,
+.hs-plan,
+.hs-plan-steps > div,
+.hs-life-links span,
+.hs-living-mark {
+  color: var(--githook-paper) !important;
+  border-color: rgb(255 255 255 / 26%) !important;
+  background-color: rgb(119 45 28 / 22%) !important;
+  background-image: none !important;
+}
+
+.sr-main h1,
+.sr-main h2,
+.sr-main h3,
+.sr-main h4,
+.sr-main strong,
+.sr-main b,
+.sr-main label,
+.sr-main legend {
+  color: #ffffff !important;
+}
+
+.sr-main p,
+.sr-main small,
+.sr-main time,
+.sr-main figcaption,
+.sr-footer p,
+.site-more .nav-menu > span {
+  color: #ffe2d7 !important;
+}
+
+.sr-main span,
+.sr-main i {
+  color: inherit !important;
+}
+
+.sr-main a:not(.sr-primary),
+.sr-main button:not(.sr-primary),
+.sr-footer a,
+.hatch-launch-button {
+  color: #ffffff !important;
+}
+
+.sr-btn.sr-primary,
+.sr-primary,
+.sr-btn-primary,
+.launch-submit,
+button[data-primary="true"] {
+  color: #9a432d !important;
+  border-color: #ffffff !important;
+  background: #ffffff !important;
+}
+
+.hs-topline,
+.hs-topline small,
+.hs-plan-top small,
+.hs-living > small,
+.hs-caption p,
+.hs-memory,
+.hs-steps button > span,
+.hs-source > span,
+.agents-local-note,
+.cg-side-hint,
+.hm-label,
+.private-label {
+  color: #ffe2d7 !important;
+}
+
+.boot-setup-steps button:disabled,
+.sr-main button:disabled {
+  opacity: 0.72 !important;
+}
+
+.sr-main input::placeholder,
+.sr-main textarea::placeholder {
+  color: rgb(255 235 228 / 78%) !important;
+}
+
+.sr-exact button,
+.boot-agent-capabilities > span {
+  color: #ffffff !important;
+  border-color: rgb(255 255 255 / 28%) !important;
+  background: rgb(119 45 28 / 18%) !important;
+}
+
+.source-note span,
+.boot-source-note span,
+.commons-source-note span,
+.cg-result-line > span,
+.hatch-scene-note span,
+.sr-step > span {
+  color: #ffe2d7 !important;
+}
+
+body :where(p, small, time, figcaption) {
+  color: #ffe2d7 !important;
+}
+
+body :where(h1, h2, h3, h4, strong, b, label, legend) {
+  color: #ffffff !important;
+}
+
+body span,
+body i {
+  color: inherit !important;
+}
+
+body .boot-source-note > span {
+  color: #ffe2d7 !important;
+}
+
+body .commons-source-note > span {
+  color: #ffe2d7 !important;
+}
+
+body .sr-btn.sr-primary,
+body .sr-primary {
+  color: #9a432d !important;
+}
+
 /* Replace every legacy hatching/egg emblem with the new Githook mark. */
 .hatch-symbol {
   overflow: hidden !important;
