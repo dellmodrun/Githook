@@ -455,6 +455,100 @@ body .sr-primary {
   color: #9a432d !important;
 }
 
+/* Discovery and directory components had their own legacy near-black skin. */
+.ds-feature,
+.sr-board.scope-discovery,
+.sr-project-card,
+.discover-media-card {
+  color: #ffffff !important;
+  border-color: rgb(255 255 255 / 30%) !important;
+  background-color: #b95b3f !important;
+  background-image: none !important;
+  box-shadow: 0 18px 42px rgb(111 43 26 / 12%) !important;
+}
+
+.ds-feature-copy,
+.sr-project-card > :not(.repo-preview),
+.discover-media-card > :not(.repo-preview) {
+  background-color: transparent !important;
+}
+
+.ds-feature .repo-preview,
+.sr-project-card .repo-preview {
+  border-color: rgb(255 255 255 / 24%) !important;
+  background-color: #a84f36 !important;
+}
+
+.dc-interests button,
+.ds-signal-strip button,
+.ds-signal-strip details > div,
+.scope-discovery .sr-btn:not(.sr-primary),
+.scope-discovery .sr-search,
+.scope-discovery .sr-select,
+.scope-discovery input,
+.scope-discovery select,
+.scope-discovery .follow-repository,
+.scope-discovery .unfinished-evidence,
+.scope-discovery .scope-metric,
+.scope-discovery .discovery-source-record {
+  color: #ffffff !important;
+  border-color: rgb(255 255 255 / 28%) !important;
+  background-color: rgb(119 45 28 / 18%) !important;
+  background-image: none !important;
+}
+
+.dc-interests button[aria-pressed="true"],
+.ds-signal-strip button[aria-pressed="true"] {
+  color: #9a432d !important;
+  border-color: #ffffff !important;
+  background: #ffffff !important;
+}
+
+.ds-feature-copy > footer,
+.ds-project-row,
+.ds-signal-strip,
+.sr-board-title,
+.sr-card-bottom {
+  border-color: rgb(255 255 255 / 24%) !important;
+}
+
+.ds-label,
+.ds-project-row small,
+.ds-project-row p,
+.ds-project-row div > span,
+.dc-interests > span,
+.dc-interests small,
+.scope-discovery .scope-result-count,
+.scope-discovery .discover-card-description {
+  color: #ffe2d7 !important;
+}
+
+.ds-feature h3 a,
+.ds-project-row h3,
+.scope-discovery h2,
+.scope-discovery h3,
+.scope-discovery strong {
+  color: #ffffff !important;
+}
+
+.scope-discovery button:not(.sr-primary),
+.ds-feature button,
+.discover-builder-row button,
+.discover-builder-contacts button,
+.repo-preview-index,
+.repo-preview-pages {
+  color: #ffffff !important;
+  border-color: rgb(255 255 255 / 30%) !important;
+  background-color: rgb(119 45 28 / 32%) !important;
+  background-image: none !important;
+}
+
+.scope-discovery button[aria-pressed="true"] {
+  color: #9a432d !important;
+  border-color: #ffffff !important;
+  background: #ffffff !important;
+}
+
 /* Replace every legacy hatching/egg emblem with the new Githook mark. */
 .hatch-symbol {
   overflow: hidden !important;
