@@ -70,7 +70,7 @@
 
   // Single source of truth for the official contract announcement.
   // Replace only this value after the token is published.
-  const GITHOOK_CA = 'TBA';
+  const GITHOOK_CA = '9UmEgQ2xt3Heu9kX5gzsdv7aUC4QYtRcnH9Fa3cpump';
   const installContractBar = () => {
     const header = document.querySelector('.sr-header');
     if (!header || document.querySelector('.githook-ca-bar')) return;
