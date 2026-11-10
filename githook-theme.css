@@ -3,17 +3,29 @@
   --githook-coral: #ce6f4e;
   --githook-coral-bright: #ed9270;
   --githook-coral-soft: #f2b29a;
-  --githook-ink: #120a08;
-  --githook-panel: #21120e;
-  --githook-line: #5b3025;
+  --githook-ink: #31140c;
+  --githook-panel: #8f422e;
+  --githook-panel-deep: #6f2f21;
+  --githook-line: #efad95;
   --githook-paper: #fff8f4;
-  --githook-muted: #caa99d;
+  --githook-muted: #f7d7cb;
+  --sr-bg: #ce6f4e;
+  --sr-panel: #a84f36;
+  --sr-raised: #98442f;
+  --sr-line: #e79b80;
+  --sr-line-bright: #f4b8a2;
+  --sr-text: #fffaf7;
+  --sr-soft: #ffe4da;
+  --sr-mute: #f4cab9;
+  --sr-blue: #fffaf7;
+  --sr-green: #fffaf7;
+  --sr-green-strong: #ffffff;
 }
 
 html,
 body,
 .sr-site {
-  background: var(--githook-ink) !important;
+  background: var(--githook-coral) !important;
   color: var(--githook-paper) !important;
 }
 
@@ -24,8 +36,8 @@ body::selection,
 }
 
 .sr-header {
-  background: color-mix(in srgb, var(--githook-ink) 92%, transparent) !important;
-  border-color: color-mix(in srgb, var(--githook-coral) 30%, transparent) !important;
+  background: rgb(181 84 57 / 94%) !important;
+  border-color: rgb(255 255 255 / 24%) !important;
 }
 
 .sr-brand {
@@ -60,14 +72,14 @@ body::selection,
 .site-more .nav-menu,
 .sr-wallet,
 .alerts-toggle {
-  border-color: color-mix(in srgb, var(--githook-coral) 32%, transparent) !important;
-  background-color: color-mix(in srgb, var(--githook-panel) 88%, transparent) !important;
+  border-color: rgb(255 255 255 / 25%) !important;
+  background-color: rgb(92 35 22 / 32%) !important;
 }
 
 .nav-core a.current,
 .nav-core a[aria-current="page"] {
   color: var(--githook-paper) !important;
-  background: color-mix(in srgb, var(--githook-coral) 24%, transparent) !important;
+  background: rgb(255 255 255 / 15%) !important;
 }
 
 .sr-btn,
@@ -75,16 +87,16 @@ button,
 input,
 select,
 textarea {
-  border-color: color-mix(in srgb, var(--githook-coral) 38%, transparent);
+  border-color: rgb(255 255 255 / 30%);
 }
 
 .sr-primary,
 .sr-btn-primary,
 .launch-submit,
 button[data-primary="true"] {
-  color: #190d09 !important;
-  border-color: var(--githook-coral) !important;
-  background: var(--githook-coral) !important;
+  color: var(--githook-coral) !important;
+  border-color: #ffffff !important;
+  background: #ffffff !important;
 }
 
 .hs-theatre,
@@ -94,7 +106,255 @@ button[data-primary="true"] {
 .life-directory,
 .project-card,
 .coin-card {
-  border-color: color-mix(in srgb, var(--githook-coral) 36%, transparent) !important;
+  border-color: rgb(255 255 255 / 24%) !important;
+}
+
+/* The logo's coral field is the site canvas. Darker coral surfaces retain
+   hierarchy without reintroducing the previous black/blue visual system. */
+.sr-main,
+.sr-discover,
+.hatch-new-hero,
+.hatch-cinema-hero,
+.hatch-story,
+.hs-theatre {
+  background-color: transparent !important;
+}
+
+.sr-panel,
+.sr-truth,
+.sr-search,
+.sr-select,
+.sr-icon-btn,
+.sr-wallet,
+.site-more .nav-menu,
+.project-card,
+.coin-card,
+.life-room-card,
+.hs-source,
+.hs-agent,
+.hs-chat,
+.hs-plan,
+.hs-life-links span {
+  color: var(--githook-paper) !important;
+  border-color: rgb(255 255 255 / 24%) !important;
+  background-color: rgb(82 29 18 / 36%) !important;
+}
+
+.hs-plan,
+.hs-chat,
+.hs-living-mark {
+  background-image: linear-gradient(145deg, rgb(130 54 35 / 90%), rgb(92 34 22 / 92%)) !important;
+}
+
+.sr-footer {
+  color: var(--githook-muted) !important;
+  border-color: rgb(255 255 255 / 22%) !important;
+  background: #b65a3d !important;
+}
+
+.sr-header nav a,
+.sr-footer,
+.sr-footer p,
+.sr-footer nav,
+.sr-small,
+.hs-caption p,
+.hs-topline,
+.hs-agent small,
+.hs-source > span {
+  color: var(--githook-muted) !important;
+}
+
+.sr-header nav a:hover,
+.sr-header nav a.current,
+.site-more summary:hover,
+.sr-footer nav a:hover {
+  color: #ffffff !important;
+  background-color: rgb(255 255 255 / 12%) !important;
+}
+
+.hs-halo {
+  background: radial-gradient(rgb(255 255 255 / 20%), transparent 66%) !important;
+}
+
+.hs-orbit,
+.hs-connections path,
+.hs-controls,
+.hs-plan footer,
+.hs-chat footer {
+  border-color: rgb(255 255 255 / 18%) !important;
+  color: rgb(255 255 255 / 48%) !important;
+}
+
+.hs-chat > header,
+.hs-chat-line,
+.hs-plan-steps > div,
+.hs-source {
+  border-color: rgb(255 255 255 / 18%) !important;
+  background: rgb(78 27 17 / 34%) !important;
+}
+
+.hs-chat-avatar,
+.hs-agent > span,
+.hs-plan-top > span {
+  color: #ffffff !important;
+  border-color: rgb(255 255 255 / 24%) !important;
+  background: rgb(255 255 255 / 10%) !important;
+}
+
+.hs-chat-line strong,
+.hs-plan h3,
+.hs-plan-steps strong,
+.hs-source strong,
+.hs-caption strong,
+.hs-living h3 {
+  color: #ffffff !important;
+}
+
+.hs-chat-line p,
+.hs-plan > p,
+.hs-plan footer,
+.hs-chat footer,
+.hs-living > p,
+.hs-memory,
+.hs-source > div:not(.hs-code-lines) {
+  color: var(--githook-muted) !important;
+}
+
+.hs-code-lines i,
+.hs-typing > i,
+.hs-topline i,
+.hs-steps button::before {
+  background: #ffffff !important;
+}
+
+.hs-running-light {
+  stroke: #ffffff !important;
+}
+
+.life-empty,
+.boot-mission,
+.boot-mission-controls,
+.boot-mission select,
+.sr-btn.sr-outline,
+.boot-mission-ideas button,
+.life-role-stamps span {
+  color: var(--githook-paper) !important;
+  border-color: rgb(255 255 255 / 24%) !important;
+  background: rgb(82 29 18 / 34%) !important;
+}
+
+.boot-mission textarea {
+  color: #ffffff !important;
+  background: transparent !important;
+}
+
+.boot-mission textarea::placeholder,
+.commons-hero-description,
+.boot-hero-subtitle,
+.life-empty p {
+  color: var(--githook-muted) !important;
+}
+
+.boot-hero h1,
+.boot-hero h1 span,
+.life-empty h3 {
+  color: #ffffff !important;
+}
+
+.sr-site input,
+.sr-site select,
+.sr-site textarea,
+.cg-search,
+.trending-summary,
+.sr-btn:not(.sr-primary) {
+  color: var(--githook-paper) !important;
+  border-color: rgb(255 255 255 / 24%) !important;
+  background-color: rgb(82 29 18 / 30%) !important;
+}
+
+.sr-site input::placeholder,
+.sr-site textarea::placeholder {
+  color: rgb(255 235 228 / 68%) !important;
+}
+
+.life-directory-controls label,
+.agent-workflow-steps > span {
+  color: var(--githook-paper) !important;
+  border-color: rgb(255 255 255 / 24%) !important;
+  background: rgb(82 29 18 / 30%) !important;
+}
+
+.agent-workflow-steps > span b {
+  color: #ffffff !important;
+}
+
+/* Replace every legacy hatching/egg emblem with the new Githook mark. */
+.hatch-symbol {
+  overflow: hidden !important;
+  border-radius: 22% !important;
+  background: url("./githook-logo.png") center / cover no-repeat !important;
+  filter: drop-shadow(0 12px 24px rgb(81 29 17 / 25%));
+}
+
+.hatch-symbol path,
+.hatch-symbol circle,
+.hatch-symbol rect,
+.hatch-symbol polygon,
+.hatch-symbol line {
+  opacity: 0 !important;
+}
+
+.hs-egg {
+  aspect-ratio: 1;
+  height: auto !important;
+}
+
+.hs-egg > svg {
+  display: none !important;
+}
+
+.hs-egg::before {
+  content: "";
+  position: absolute;
+  inset: 7%;
+  border: 1px solid rgb(255 255 255 / 35%);
+  border-radius: 22%;
+  background: url("./githook-logo.png") center / cover no-repeat;
+  box-shadow: 0 28px 65px rgb(77 25 14 / 28%);
+  transition: opacity 0.3s ease, transform 0.45s ease;
+}
+
+.hatch-story[data-stage="1"] .hs-egg::before {
+  opacity: 0;
+  transform: scale(0.75);
+}
+
+.hs-born-mark,
+.hs-living-mark {
+  border-radius: 22% !important;
+  background-color: var(--githook-coral) !important;
+}
+
+.hs-born-mark .hatch-symbol,
+.hs-living-mark .hatch-symbol,
+.preview-overview-mark .hatch-symbol {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.hs-egg-aura,
+.hs-living-mark > span {
+  border-color: rgb(255 255 255 / 18%) !important;
+  background: rgb(255 255 255 / 8%) !important;
+}
+
+.hs-steps button,
+.hs-playback button,
+.hs-explore,
+.sr-eyebrow,
+.brand-period,
+.nav-launch {
+  color: #ffffff !important;
 }
 
 .nav-x {
