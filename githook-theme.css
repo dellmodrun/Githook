@@ -649,3 +649,92 @@ body .sr-primary {
     border-radius: 8px;
   }
 }
+
+/* Official contract announcement: one consistent source of truth on every page. */
+.githook-ca-bar {
+  border-bottom: 1px solid rgb(255 255 255 / 22%);
+  background: #b95b3f;
+}
+
+.githook-ca-inner {
+  min-height: 50px;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 14px;
+}
+
+.githook-ca-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff !important;
+  letter-spacing: 0.12em;
+  font: 700 10px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.githook-ca-label i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgb(255 255 255 / 12%);
+}
+
+.githook-ca-value {
+  overflow: hidden;
+  padding: 8px 12px;
+  border: 1px solid rgb(255 255 255 / 25%);
+  border-radius: 7px;
+  background: rgb(119 45 28 / 18%);
+  color: #ffffff !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: 600 12px/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.githook-ca-status {
+  color: #ffe2d7 !important;
+  font-size: 11px;
+}
+
+.githook-ca-copy {
+  min-height: 32px;
+  padding: 7px 11px;
+  border: 1px solid #ffffff !important;
+  border-radius: 7px;
+  background: #ffffff !important;
+  color: #9a432d !important;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.githook-ca-copy:disabled {
+  border-color: rgb(255 255 255 / 25%) !important;
+  background: rgb(119 45 28 / 18%) !important;
+  color: #ffe2d7 !important;
+  opacity: 1 !important;
+  cursor: default;
+}
+
+@media (max-width: 720px) {
+  .githook-ca-inner {
+    grid-template-columns: auto 1fr;
+    gap: 8px 10px;
+    padding-block: 9px;
+  }
+
+  .githook-ca-value {
+    order: 3;
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .githook-ca-status {
+    text-align: right;
+  }
+
+  .githook-ca-copy {
+    display: none;
+  }
+}
