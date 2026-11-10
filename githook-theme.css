@@ -1,0 +1,111 @@
+:root {
+  color-scheme: dark;
+  --githook-coral: #ce6f4e;
+  --githook-coral-bright: #ed9270;
+  --githook-coral-soft: #f2b29a;
+  --githook-ink: #120a08;
+  --githook-panel: #21120e;
+  --githook-line: #5b3025;
+  --githook-paper: #fff8f4;
+  --githook-muted: #caa99d;
+}
+
+html,
+body,
+.sr-site {
+  background: var(--githook-ink) !important;
+  color: var(--githook-paper) !important;
+}
+
+body::selection,
+.sr-site ::selection {
+  color: var(--githook-paper);
+  background: var(--githook-coral);
+}
+
+.sr-header {
+  background: color-mix(in srgb, var(--githook-ink) 92%, transparent) !important;
+  border-color: color-mix(in srgb, var(--githook-coral) 30%, transparent) !important;
+}
+
+.sr-brand {
+  color: var(--githook-paper) !important;
+}
+
+.sr-brand .sr-mark {
+  display: inline-block;
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--githook-paper) 22%, transparent);
+  border-radius: 10px;
+  background: url("./githook-logo.png") center / cover no-repeat;
+  box-shadow: 0 8px 30px #ce6f4e2b;
+}
+
+.sr-brand .sr-mark svg {
+  display: none !important;
+}
+
+.brand-period,
+.sr-eyebrow,
+.nav-launch,
+.hs-explore,
+.hatch-navigation a:hover {
+  color: var(--githook-coral-bright) !important;
+}
+
+.nav-core,
+.site-more .nav-menu,
+.sr-wallet,
+.alerts-toggle {
+  border-color: color-mix(in srgb, var(--githook-coral) 32%, transparent) !important;
+  background-color: color-mix(in srgb, var(--githook-panel) 88%, transparent) !important;
+}
+
+.nav-core a.current,
+.nav-core a[aria-current="page"] {
+  color: var(--githook-paper) !important;
+  background: color-mix(in srgb, var(--githook-coral) 24%, transparent) !important;
+}
+
+.sr-btn,
+button,
+input,
+select,
+textarea {
+  border-color: color-mix(in srgb, var(--githook-coral) 38%, transparent);
+}
+
+.sr-primary,
+.sr-btn-primary,
+.launch-submit,
+button[data-primary="true"] {
+  color: #190d09 !important;
+  border-color: var(--githook-coral) !important;
+  background: var(--githook-coral) !important;
+}
+
+.hs-theatre,
+.hs-chat,
+.hs-plan,
+.hs-source,
+.life-directory,
+.project-card,
+.coin-card {
+  border-color: color-mix(in srgb, var(--githook-coral) 36%, transparent) !important;
+}
+
+.nav-x {
+  display: none !important;
+}
+
+@media (max-width: 720px) {
+  .sr-brand .sr-mark {
+    width: 32px;
+    height: 32px;
+    flex-basis: 32px;
+    border-radius: 8px;
+  }
+}

@@ -35,6 +35,39 @@
     });
   }
 
+  document.addEventListener(
+    'click',
+    (event) => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+        return;
+      }
+      const anchor = event.target.closest?.('a[href]');
+      if (!anchor || anchor.target === '_blank' || anchor.hasAttribute('download')) return;
+
+      const url = new URL(anchor.href, window.location.href);
+      if (url.origin !== window.location.origin) return;
+
+      const routeRoots = [
+        'agents', 'claim', 'docs', 'explore', 'how-it-works', 'launch',
+        'launches', 'outreach', 'project', 'rooms', 'scope', 'trending',
+      ];
+      let pathname = url.pathname;
+      const firstSegment = pathname.split('/').filter(Boolean)[0];
+      if (pathname === '/' || routeRoots.includes(firstSegment)) {
+        pathname = siteRoot + (pathname === '/' ? '/' : pathname);
+      }
+      if (!pathname.startsWith(siteRoot + '/')) return;
+
+      const finalSegment = pathname.split('/').filter(Boolean).at(-1) || '';
+      if (!pathname.endsWith('/') && !finalSegment.includes('.')) pathname += '/';
+
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      window.location.assign(pathname + url.search + url.hash);
+    },
+    true,
+  );
+
   const manifestReady = nativeFetch(`${siteRoot}/__api-manifest.json`, {
     cache: 'no-store',
   })
