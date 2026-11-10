@@ -1,0 +1,10 @@
+{
+  "name": "hatchmind-local",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "mirror": "node scripts/mirror.mjs",
+    "start": "node scripts/server.mjs",
+    "qa": "node scripts/qa.mjs"
+  }
+}

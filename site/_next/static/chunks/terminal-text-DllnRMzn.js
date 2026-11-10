@@ -1,0 +1,1 @@
+import{r as e}from"./framework-CIv9clvd.js";var t=e();function n({text:e}){return(0,t.jsx)(`span`,{children:e})}export{n as t};

@@ -1,0 +1,20 @@
+{
+  "routes": [
+    "/",
+    "/explore",
+    "/scope",
+    "/rooms",
+    "/launch",
+    "/agents",
+    "/agents/research",
+    "/launches",
+    "/trending",
+    "/outreach",
+    "/claim",
+    "/docs",
+    "/agents/automatic",
+    "/how-it-works"
+  ],
+  "assets": 57,
+  "failed": []
+}

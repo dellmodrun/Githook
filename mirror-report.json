@@ -1,0 +1,381 @@
+{
+  "source": "https://hatchmind.fun",
+  "mirroredAt": "2026-11-06T23:02:59.623Z",
+  "pages": [
+    "/",
+    "/explore",
+    "/scope",
+    "/rooms",
+    "/launch",
+    "/agents",
+    "/agents/research",
+    "/launches",
+    "/trending",
+    "/outreach",
+    "/claim",
+    "/docs"
+  ],
+  "saved": 66,
+  "failed": [
+    {
+      "path": "/_next/static/chunks/coin-status-BMvqPyeJ.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/public-contacts-QCXwz6rb.js",
+      "page": false,
+      "error": "fetch failed"
+    },
+    {
+      "path": "/_next/static/chunks/boot-experience-M5Ze9iQI.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/base58-tXxwFRVT.js",
+      "page": false,
+      "error": "fetch failed"
+    },
+    {
+      "path": "/_next/static/chunks/check-BR7uQaSE.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/shield-check-B9vXEw6S.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/brand-B657Wo76.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/discovery-signals-C0taRdns.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/coin-directory-CDKDcxjE.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/terminal-text-DllnRMzn.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/fee-recipients-BCWJWD7z.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/index.browser.esm-Bt2eRjUK.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/secp256k1-JlM_Gy7A.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/buffer-CzXJmjeq.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/types-BdrGwWry.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/refresh-cw-Bt3LnX__.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/arrow-right-DoS6tqeM.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/app-C9sLC6tz.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/wallet-access-5h_Gaync.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/site-nav-kZzWqbHN.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/circle-check-D_X3tlKM.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/directory-DH0KMNft.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/project-alerts-CySAysk1.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/bell-2TzRhSuq.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/developer-outreach-BhsAnz1V.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/arrow-left-CokLhZHQ.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/mail-BvGNigTX.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/hatch-icon.svg",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-4f3b800fd95783.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-ce359de8696d6a.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-56622aa54a21a1.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-5ce69dc0f2b9fd.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-0bb554a167e414.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/css/index.CYu6PQFd.css/",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-ab2c69d0013389.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-b9f20139d6b2b8.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-a746bef981e13e.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-21c63b1a6fb897.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-20679e61cd7bc1.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-6360217e04edc5.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-d3f7dfa0d5c433.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/repo-media/discover-repo-a39ae415c5da51.webp",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/l.origin",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/setup-vPWrIQRc.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/workspace-BJqQHOBQ.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/agents/new%20URL(l.href",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/page-BEzq0Tw8.js",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/css/page.CbqVqXtH.css/",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/fonts/inter-0.woff2",
+      "page": false,
+      "error": "422 Unprocessable Entity"
+    },
+    {
+      "path": "/fonts/inter-1.woff2",
+      "page": false,
+      "error": "422 Unprocessable Entity"
+    },
+    {
+      "path": "/fonts/inter-2.woff2",
+      "page": false,
+      "error": "422 Unprocessable Entity"
+    },
+    {
+      "path": "/fonts/inter-3.woff2",
+      "page": false,
+      "error": "422 Unprocessable Entity"
+    },
+    {
+      "path": "/fonts/inter-4.woff2",
+      "page": false,
+      "error": "422 Unprocessable Entity"
+    },
+    {
+      "path": "/fonts/inter-5.woff2",
+      "page": false,
+      "error": "422 Unprocessable Entity"
+    },
+    {
+      "path": "/fonts/inter-6.woff2",
+      "page": false,
+      "error": "422 Unprocessable Entity"
+    },
+    {
+      "path": "/_next/static/chunks/e,window.location.href",
+      "page": false,
+      "error": "403 Forbidden"
+    },
+    {
+      "path": "/_next/static/chunks/Yi(e",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/e.responseUrl,e.origin",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/e.targetHref,e.currentHref",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/e,%60https://vinext.local%60",
+      "page": false,
+      "error": "ENOENT: no such file or directory, mkdir 'C:\\Users\\Administrator\\Desktop\\01\\hatchmind-local\\site\\_next\\static\\chunks\\e,%60https:'"
+    },
+    {
+      "path": "/_next/static/chunks/t",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/n,%60http://vinext.local%60",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/e,%60http://vinext.local%60",
+      "page": false,
+      "error": "ENOENT: no such file or directory, mkdir 'C:\\Users\\Administrator\\Desktop\\01\\hatchmind-local\\site\\_next\\static\\chunks\\e,%60http:'"
+    },
+    {
+      "path": "/_next/static/chunks/n,window.location.href",
+      "page": false,
+      "error": "403 Forbidden"
+    },
+    {
+      "path": "/_next/static/chunks/e,%60http://localhost%60",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/window.location.href",
+      "page": false,
+      "error": "403 Forbidden"
+    },
+    {
+      "path": "/_next/static/chunks/e.href,n",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/t,window.location.href",
+      "page": false,
+      "error": "403 Forbidden"
+    },
+    {
+      "path": "/_next/static/chunks/p,window.location.origin",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/%60+i+%60",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/location.href",
+      "page": false,
+      "error": "429 Too Many Requests"
+    },
+    {
+      "path": "/_next/static/chunks/%60/launch%60,e",
+      "page": false,
+      "error": "429 Too Many Requests"
+    }
+  ]
+}

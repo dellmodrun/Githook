@@ -1,0 +1,1 @@
+import{getBase58Decoder as e}from"./index.browser-zJ7nHqVs.js";function t(t){return e().decode(t)}export{t};
