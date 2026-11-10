@@ -1,0 +1,1 @@
+var e=`https://hatchmind.fun`,t=[`https://seedpad.site`,`https://bootpad.online`,`https://sourcepad.site`,`https://reposcope.pro`];export{e as n,t};

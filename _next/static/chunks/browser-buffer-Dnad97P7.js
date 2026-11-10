@@ -1,0 +1,1 @@
+import{t as e}from"./buffer-CzXJmjeq.js";var t=e(),n=globalThis;n.Buffer??=t.Buffer;
